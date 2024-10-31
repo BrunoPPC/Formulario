@@ -33,6 +33,10 @@ def submit_form():
     # Declarar variables para la recogida de datos
     text = request.form['text']
     email = request.form['email']
+    
+    
+    return render_template('index.html')
+
 
 
 if __name__ == "__main__":
